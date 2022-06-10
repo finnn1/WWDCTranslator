@@ -1,7 +1,7 @@
 {
   "name": "WWDC 한글 자막",
   "description": "WWDC 한글 자막 띄우기",
-  "version": "0.1.0",
+  "version": "1.0",
   "manifest_version": 3,
   "icons": {
     "16": "images/icon_16.png",
