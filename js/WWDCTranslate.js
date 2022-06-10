@@ -1,5 +1,10 @@
 console.log("WWDC 한글 자막 확장프로그램 실행됨.")
 
+var apiKey
+chrome.storage.sync.get('apiKey', function (data) {
+    apiKey = data.apiKey
+})
+
 window.onload = function () {
   console.log("도큐먼트 로드됨.")
 
