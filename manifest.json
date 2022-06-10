@@ -15,7 +15,6 @@
         "https://developer.apple.com/videos/*"
       ],
       "js": [
-        "js/Authentication.js",
         "js/WWDCTranslate.js"
       ],
       "all_frames": true,

@@ -71,7 +71,6 @@ window.onload = function () {
   }
 
   // ##### 비디오가 재생되면 지속적으로 업데이트 #####
-  // console.log(aud.currentTime)
   aud.ontimeupdate = function () {
 
     // 원본 영문 자막 가져오기
