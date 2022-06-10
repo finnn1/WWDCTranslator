@@ -27,8 +27,5 @@
       "all_frames": true,
       "run_at": "document_end"
     }
-  ],
-  "host_permissions": [
-    "https://developer.apple.com/videos/play/*"
   ]
 }
