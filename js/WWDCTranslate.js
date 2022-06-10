@@ -29,18 +29,7 @@ window.onload = function () {
     korParagraph.after(engParagraph)
   }
 
-
-
-
-
-  // while (document.querySelector('.tab[data-supplement-id="transcript"]').classList.contains('active') == false) {
-  // Transcript 버튼 클릭하기
-  // const transcriptButton = document.querySelector('[data-supplement-id="transcript"]')
-  // transcriptButton.click()
-
-
-  // ### 문자열을 문장 단위로 합치기 ###
-
+  // ##### 문자열을 문장 단위로 합치기 #####
   // 모든 p를 얻어옴 (시간과 함께 나누어져 있는 문장들)
   var paragraphs = document.querySelector('.supplement.transcript[data-supplement-id="transcript"]').querySelectorAll('p')
 
@@ -75,14 +64,8 @@ window.onload = function () {
       }
     }
   }
-  // break
-  // }
 
-
-
-
-
-  // ### 비디오가 재생되면 지속적으로 업데이트 ###
+  // ##### 비디오가 재생되면 지속적으로 업데이트 #####
   // console.log(aud.currentTime)
   aud.ontimeupdate = function () {
 
@@ -111,11 +94,7 @@ window.onload = function () {
       console.log(sentencesList[earlierIndex][1])
     }
 
-
-
-
-
-    // ### 한국어로 번역 ###
+    // ##### 한국어로 번역 #####
     if (document.getElementById('TranslateDiv').innerText == document.getElementById('TranslateDivEng').innerText) {
       let transText = document.getElementById('TranslateDivEng').textContent
 
